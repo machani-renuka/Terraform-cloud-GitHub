@@ -8,7 +8,7 @@ terraform {
     }
    }
 
-provider "aws" {
+provider "aws" {"registry.terraform.io/hashicorp/aws"}
         region = "us-east-1" 
         profile = "default"
 	}
