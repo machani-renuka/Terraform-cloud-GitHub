@@ -14,6 +14,6 @@ provider "aws" {
 	}
 
 resource "aws_instance" "Renukainfra" {
-	ami = "ami-0c614dee691cbbf37" 
+	ami = "ami-08b5b3a93ed654d19" 
 	instance_type = "t2.nano"
 }
